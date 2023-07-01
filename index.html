@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3D Subway Door</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body{
+				overflow: hidden;
+				margin: 0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- <div id="container"></div> -->
+		<!-- <div id="3Ddoor" style="margin-top: 100px; margin-left: 200px;"></div> -->
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "./build/three.module.js",
+					"three/addons/": "./jsm/", 
+					"@tweenjs/tween.js": "./dist/tween.esm.js"
+				}
+			}
+		</script>
+
+		<script src="./index.js" type="module">
+		</script>
+
+	</body>
+</html>
